@@ -1,0 +1,346 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  float: right;
+  position: relative;
+  margin-top: 10px;
+  font-family: Helvetica;
+
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+/* HOMEPAGE */
+
+body {
+	background-color: rgb(207,181,244);
+	border: 3px solid rgb(253,224,125);
+	font-family: Helvetica;
+}
+
+.abovefold {
+	text-align: center;
+}
+
+.bakeryimage {
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.title {
+	position: relative;
+	top: -500px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: rgb(255,248,88);
+	font-family: Helvetica;
+	font-size: 4em;
+}
+
+
+.button {
+	position: relative;
+	top: -350px;
+	background-color: rgb(234,131,214);
+	font-size: 40px;
+	border-radius: 5px;
+	color: rgb(244,239,111);
+	border: none;
+	padding: 5px 20px;
+}
+
+.mappic {
+	width: 400px;
+	margin-top: -250px;
+	margin-left: 180px;
+	margin-bottom: 10px;
+}
+
+.contact {
+	margin-top: -300px;
+	text-align: left;
+	margin-left: 650px;
+	font-family: Helvetica;
+	color: rgb(255,248,88);
+	font-size: 2em;
+	padding-bottom: 70px;
+}
+
+
+
+/* MENU SECTION*/
+
+.menuitem {
+	width: 250px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+
+
+#description {
+	background-color: yellow;
+	width: 250px;
+	height: 75px;
+	background-color: rgb(244,218,128);
+	color: rgb(251,141,87);
+	margin-top: -25px;
+	padding: 0px;
+	text-align: left;
+	}
+
+#descriptionpage {
+	background-color: rgb(244,218,128);
+	border: none;
+	}
+
+.flavor {
+	font-size: 1.3em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.price {
+	position: relative;
+	top: -65px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.calories {
+	position: relative;
+	top: -80px;
+	font-size: 1em;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.gridbox {
+	margin-top: 30px;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grid-container {
+	display: inline-grid;
+	grid-template-areas: "grid-item1 grid-item2 grid-item3"
+		"grid-item4 grid-item5 grid-item6"
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 {
+	padding: 10px;
+}
+
+
+
+/* DESCRIPTION SECTION*/
+
+
+.above {
+	display: inline;
+}
+
+.exitbutton {
+	font-size: 2em;
+	position: absolute;
+	display: inline;
+	margin-top: -45px;
+	margin-left: 350px;
+	text-align: right;
+	color: grey;
+
+}
+
+
+
+#descmenuitem {
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	width: 250px;
+}
+
+.rolldesc {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 100px;
+	display: inline-block;
+	width: 35%;
+	padding: 0px;
+	font-family: Helvetica;
+
+}
+
+.descflavor {
+	color: rgb(172,131,232);
+	padding: 0px;
+	margin: 0px;
+	font-style: italic;
+}
+
+.descriptionprice {
+	color: rgb(172,131,232);
+	font-style: normal;
+}
+
+.rolldescription {
+	color: rgb(172,131,232)
+}
+
+.dropdown {
+	color: rgb(172,131,232);
+	margin-top: 10px;
+	font-size: 1.75em;
+	margin-left: 30px;
+}
+
+#glaze {
+	height: 120%;
+	background-color: rgb(200,200,200);
+}
+
+.quantity {
+	position: relative;
+	color: rgb(172,131,232);
+	margin-top: 10px;
+	font-size: 1.75em;
+	margin-left: 30px;
+	width: 400%;
+}
+
+
+#quantityof {
+	height: 120%;
+	background-color: rgb(200,200,200);
+}
+
+
+#addto {
+	background-color: rgb(255,131,79);
+	color: rgb(244,218,128);
+	padding: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#addtowish {
+	background-color: rgb(255,131,79);
+	color: rgb(244,218,128);
+	padding: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+
+/* BASKET SECTION*/
+
+
+
+
+.babove {
+	display: inline;
+}
+
+.baskettitle {
+	font-family: Helvetica;
+	color: rgb(244,218,128);
+	padding-left: 30px;
+}
+
+.bmenuitem {
+	width: 250px;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+.brolldesc {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 60px;
+	display: inline-block;
+	width: 35%;
+	padding: 0px;
+	font-family: Helvetica;
+	color: rgb(244,218,128);
+
+}
+
+
+#brolldescription {
+	position: absolute;
+	margin-top: -50px;
+	display: inline-block;
+	padding: 0px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 1.5em;
+}
+
+#baskettotalprice {
+	position: relative;
+	color: rgb(244,218,128);
+	margin-top: -20px;
+	font-style: normal;
+	margin-left: 500px;
+}
+
+#delete {
+	position: relative;
+	margin-left: 300px;
+	margin-top: -10px;
+	color: black;
+}
+
+
+.hr {
+	width: 80%;
+	border: 2px solid rgb(244,218,128);
+}
+
+
+.subtotal {
+	position: relative;
+	margin-left: 600px;
+	color: rgb(244,218,128);
+}
+
+.proceed {
+	background-color: rgb(255,131,79);
+	color: rgb(244,218,128);
+	padding: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	margin-left: 60%;
+	margin-top: 200px;
+	width: 25%;
+}
+
+/* {
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+}*/

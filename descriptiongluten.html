@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+	<title>PUI Lab</title>
+	</head>
+
+
+	<body id="descriptionpage" onload="displayCart(); displayWish()">
+
+
+	<!-- Nav Bar  -->
+	<div>
+		<ul class="navbar">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="menu.html">Menu</a></li>
+		  <li><a href="basket.html" id="hbasket">Basket</a></li>
+		  <li><a href="wishlist.html" id="wishlist">Wishlist</a></li>
+		</ul>
+	</div>
+
+
+	<!-- Descriptions of Item  -->
+	<div class="above">
+		<img class="menuitem" id="descmenuitem" src="assets/pics/Roll.png">
+
+		<div class="rolldesc">
+
+			<!-- Flavor  -->			
+			<h1 class="descflavor" id="descflavor">Original (Gluten Free)</h1>
+
+			<!-- Exit Button  -->
+			<a href="menu.html"><p class="exitbutton">x</p></a>
+
+			<!-- Price  -->			
+			<h2 class="descriptionprice">$2 ea.</h2>
+			<!-- Description  -->
+			<h3 class="rolldescription">These scrumptions original (gluten free) rolls are guaranteed to melt in your mouth. Ingredients: Water, flour-substitute, butter, sugar.<br><br>300 calories</h3>
+		</div>
+
+
+
+	</div>
+
+	<!-- Glaze Dropdown  -->
+	<section class="dropdown">
+		<form>
+			<label for="glaze">Glaze:</label>
+			<select name="glaze" id="glaze" onchange="changePic()">
+        		<option value="none">None</option>
+           		<option value="sugar-milk">Sugar-Milk</option>
+           		<option value="vanilla-milk">Vanilla-Milk</option>
+           		<option value="double-chocolate">Double-Chocolate</option>
+           	</select>
+        </form>
+    </section>
+
+	<!-- Quantity Buttons  -->
+	<div class="quantity">
+		<form>
+			<label for="quantityof">Quantity:</label>
+			<select name="quantityof" id="quantityof">
+        		<option value="none">None</option>
+           		<option value="1">1</option>
+           		<option value="3">3</option>
+           		<option value="6">6</option>
+           		<option value="12">12</option>
+           	</select>
+        </form>
+	</div>
+
+	</div>
+
+	<!-- Basket Button  -->
+	<button type="button" id="addto" onclick="clickCounter()">Add to Basket</button>
+
+	<!-- Basket Button  -->
+	<button type="button" id="addtowish" onclick="clickCounterWish()">Add to Wishlist</button>
+
+	</body>
+	<script src="assets/js/script.js"></script>
+
+
+
+</html>
