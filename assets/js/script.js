@@ -109,6 +109,7 @@ function displayList() {
     cartList = currentCart;
   };
   var cartListLength = cartList.length;
+  var totalPriceInCart = 0
   for (var i = 0; i < cartListLength; i++) {
     document.getElementById("bdescflavor" + i).innerHTML = (cartList[i].flavor);
     document.getElementById("baskettotalprice" + i).innerHTML = "$" + ((cartList[i].quantity)*2);
@@ -124,7 +125,8 @@ function displayList() {
     } else if (cartList[i].glaze == "Double-Chocolate") {
       document.getElementById("bmenuitem" + i).src="assets/pics/chocolate.png";
     };
-    document.getElementById("subtotal").innerHTML = "Subtotal (" + cartListLength +") items:";
+    totalPriceInCart = totalPriceInCart + ((cartList[i].quantity)*2)
+    document.getElementById("subtotal").innerHTML = "Subtotal (" + cartListLength +") items:" + totalPriceInCart;
   }; 
 };
 
