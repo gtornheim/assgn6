@@ -290,17 +290,16 @@ body {
 }
 
 
-#brolldescription {
+.brolldescription {
 	position: absolute;
 	margin-top: -50px;
 	display: inline-block;
-	padding: 0px;
 	font-family: Helvetica;
 	font-style: normal;
 	font-size: 1.5em;
 }
 
-#baskettotalprice {
+.baskettotalprice {
 	position: relative;
 	color: rgb(244,218,128);
 	margin-top: -20px;
@@ -308,11 +307,12 @@ body {
 	margin-left: 500px;
 }
 
-#delete {
+.delete {
 	position: relative;
 	margin-left: 300px;
-	margin-top: -10px;
+	margin-top: -40px;
 	color: black;
+	cursor: pointer;
 }
 
 

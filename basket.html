@@ -7,7 +7,7 @@
 	</head>
 
 
-	<body onload="displayCart(); displayWish()">
+	<body onload="displayCart(); displayList()">
 
 	<!-- Nav Bar  -->
 	<div>
@@ -20,40 +20,209 @@
 	</div>
 
 
+
 	<!-- Descriptions of Item  -->
 	<div class="babove">
 
 		<h1 class="baskettitle">Basket</h1>
 
-		<div class="item1">
-			<img class="bmenuitem" src="assets/pics/Roll.png">
-			<div class="brolldesc">
-				<!-- Flavor  -->			
-				<h1 class="bdescflavor">Blackberry</h1>
-				<!-- Price  -->			
-				<h2 id="baskettotalprice">$12</h2>
-				<!-- Description  -->
-				<h3 id="brolldescription">Glaze: <br>Quantity: </h3>
-				<h3 id="delete">Delete</h3>
+		<div id="replicate0">
+			<div class="item0" id="item0">
+				<img class="bmenuitem" id="bmenuitem0" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor0"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice0"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze0"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity0"></h3>
+					<h3 class="delete" id="0" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
 			</div>
 		</div>
 
-		<div class="item2">
-			<img class="bmenuitem" src="assets/pics/Roll.png">
-			<div class="brolldesc">
-				<!-- Flavor  -->			
-				<h1 class="bdescflavor">Pumpkin Spice</h1>
-				<!-- Price  -->			
-				<h2 id="baskettotalprice">$12</h2>
-				<!-- Description  -->
-				<h3 id="brolldescription">Glaze: <br>Quantity: </h3>
-				<h3 id="delete">Delete</h3>
+		<div id="replicate1">
+			<div class="item0" id="item1">
+				<img class="bmenuitem" id="bmenuitem1" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor1"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice1"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze1"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity1"></h3>
+					<h3 class="delete" id="1" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
 			</div>
 		</div>
+
+		<div id="replicate2">
+			<div class="item0" id="item2">
+				<img class="bmenuitem" id="bmenuitem2" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor2"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice2"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze2"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity2"></h3>
+					<h3 class="delete" id="2" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="replicate3">
+			<div class="item0" id="item3">
+				<img class="bmenuitem" id="bmenuitem3" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor3"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice3"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze3"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity3"></h3>
+					<h3 class="delete" id="3" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="replicate4">
+			<div class="item0" id="item4">
+				<img class="bmenuitem" id="bmenuitem4" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor4"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice4"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze4"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity4"></h3>
+					<h3 class="delete" id="4" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="replicate5">
+			<div class="item0" id="item5">
+				<img class="bmenuitem" id="bmenuitem5" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor5"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice5"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze5"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity5"></h3>
+					<h3 class="delete" id="5" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="replicate6">
+			<div class="item0" id="item6">
+				<img class="bmenuitem" id="bmenuitem6" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor6"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice6"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze6"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity6"></h3>
+					<h3 class="delete" id="6" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="replicate7">
+			<div class="item0" id="item7">
+				<img class="bmenuitem" id="bmenuitem7" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor7"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice7"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze7"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity7"></h3>
+					<h3 class="delete" id="7" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="replicate8">
+			<div class="item0" id="item8">
+				<img class="bmenuitem" id="bmenuitem8" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor8"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice8"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze8"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity8"></h3>
+					<h3 class="delete" id="8" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+		<div id="replicate9">
+			<div class="item0" id="item9">
+				<img class="bmenuitem" id="bmenuitem9" src="">
+				<div class="brolldesc">
+					<!-- Flavor  -->			
+					<h1 class="bdescflavor" id="bdescflavor9"></h1>
+					<!-- Price  -->			
+					<h2 class="baskettotalprice" id="baskettotalprice9"></h2>
+					<!-- Description  -->
+					<br>
+					<h3 class="brolldescription" id="brollglaze9"></h3>
+					<br>
+					<br>
+					<h3 class="brolldescription" id="brollquantity9"></h3>
+					<h3 class="delete" id="9" onclick="deleteItem(this.id); displayList()"></h3>
+				</div>
+			</div>
+		</div>
+
+
+
+
 
 		<hr class="hr">
 
-		<h2 class="subtotal">Subtotal (1 item): </h2>
+		<h2 class="subtotal" id="subtotal">Subtotal (0 items): </h2>
 
 
 	</div>
